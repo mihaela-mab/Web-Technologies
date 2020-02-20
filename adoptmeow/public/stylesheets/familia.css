@@ -1,0 +1,55 @@
+.container{
+	margin: 2em;
+}
+
+.container .box {
+	display: inline-block;
+	position: relative;
+	height: 17em;
+	width: 17em;
+	background-color: blue;
+	margin: 1.2em;
+	box-sizing: border-box;
+	
+}
+
+.container .box .img_box{
+	position: relative;
+	overflow: hidden;
+}
+
+.container .box .img_box img{
+	height: 17em;
+	width:17em;
+	transition: transform 3s;
+	overflow:hidden;
+}
+
+.container .box .img_box img:hover {
+	transform: scale(1.5);
+	
+}
+
+.container .box .text {
+	position: absolute;
+	top: 10px;
+	transform: scaleY(0);
+	transition: transform .8s;
+}
+
+.container .box:hover .text {
+	transform: scaleY(1);
+}
+
+dl {
+	background-color: rgba(0, 0, 0, .5);
+	margin: 4%;
+}
+
+dt, dd {
+	font-size: 1.1em;
+	color: lavender;
+	
+}
+
+

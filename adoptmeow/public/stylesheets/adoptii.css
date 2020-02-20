@@ -1,0 +1,25 @@
+form {
+	margin: 2em;
+}
+
+form input:not(.radiotype) {
+	width: 25%;
+	display: block;
+}
+
+fieldset{
+	margin: 20px;
+}
+
+.radiotype{
+	margin-left: 2em;
+}
+
+input:nth-child(3){
+	margin-left: 2em;
+	color: black;
+}
+
+h3{
+	text-align: center;	
+}

@@ -1,0 +1,268 @@
+@media screen and (max-width: 700px) {
+	*{
+		box-sizing: border-box;
+		padding: 0px;
+		margin: 0px;
+	}
+	
+	header {
+		width: 100%;
+	}
+	
+	.hnav{
+		width: 100%;
+		padding: 0px;
+		margin: 0px;
+	
+		
+	}
+	.hnav li{
+		padding-bottom: 0px;
+		margin-right: 2em;
+		margin-left: 2em;
+		position: relative;
+	}
+	
+	.hnav li.submenu{
+		padding-bottom: 100px;
+		margin-right: 1.5em;
+		margin-left: 1.5em;
+	}
+	
+	.hnav li.submenu ul{
+		padding: 0px;
+		margin: 0 auto;
+		clear: left;
+		
+	}
+	
+	.hnav li.submenu li {
+		clear: left;
+		padding: 0px;
+		display: block;
+		text-align: left;
+		margin: 0 -30%;
+	}
+
+	
+	.hnav li.submenu li a{
+		padding: 0;
+		margin: 0;
+	}
+	
+	
+	img, .team_img {
+		max-width: 90%;
+		height: auto;
+		margin: 0 auto;
+		margin-bottom: 20px;
+		
+	}
+	
+	.container .box .img_box img{
+	min-width: 100%;
+	transition: transform 3s;
+	overflow:hidden;
+	
+}
+	
+	.cat_div {
+		width: 100%;
+	}
+	
+	section {
+		width: 90%;
+		padding: 0px;
+	}
+	
+	p {
+		font-size: 1.5em;
+		clear: left;
+		padding-top: 10px;
+	}
+	#gif {
+		float: left;
+		margin: 1.2em;
+	}
+	ul {
+		list-style-type: none;
+	}
+	
+	form{
+		margin: 0;
+		width: 100%;
+	}
+	
+	form input:not(.radiotype){
+		width: 80%;
+		
+	}
+	.radiotype {
+		margin-top: 10px;
+		
+	}
+	#conturi li, #defacut li {
+		padding-top: 10px;
+		font-size: 1.2em;
+	}
+	
+	.coloane {
+		grid-template-columns: auto;
+	}
+	h4 {
+		font-size: 1.8em;
+	}
+	article ul li {
+		list-style-type: circle;
+		font-size: 1.2em;
+	}
+	
+	table {
+		margin-top: 2em;
+		margin-bottom: 2em;
+		width: 100%;
+	}
+	
+	table thead {
+		display: none;
+		
+	}
+	
+	table caption {
+		font-size: 1.5em;
+	}
+	
+	tbody td, tfoot td{
+		display: block;
+		font-size: 1.3em;
+	}
+	
+	tbody td:nth-child(odd), tfoot td {
+		background-color: royalblue;
+		color: lavender;
+	}
+	
+	tbody td:nth-child(even) {
+		color: royalblue;
+	}
+	
+	tbody td:nth-child(1):before {
+		content: "Hrana dimineata: ";
+	}
+	tbody td:nth-child(2):before {
+		content: "Hrana pranz: ";
+	}
+	tbody td:nth-child(3):before {
+		content: "Hrana seara: ";
+	}
+	tbody td:nth-child(4):before {
+		content: "Costuri intretinere: ";
+	}
+	tbody td:nth-child(5):before {
+		content: "Costuri spatiu de joaca: ";
+	}
+	tbody td:nth-child(6):before {
+		content: "Ingrijire (control lunar): ";
+	}
+
+}	
+
+
+@media screen and (min-width: 701px) and (max-width: 1280px) {
+	
+	p {
+		font-size: 2em;
+		padding-left: 30px;
+	}
+	
+	section {
+		padding: 0;
+	}
+	.submenu{
+		margin-bottom: 3.5em;
+		
+	}
+	h1 {
+		font-size: 2.9em;
+	}
+	
+	h2 {
+		font-size: 2.5em;
+	}
+	
+	.hnav li {
+		margin-left: 50px;
+		margin-right: 50px;
+		padding-top: 10px;
+	}
+	.hnav a {
+		font-size: 2.5em;
+	}
+	
+	.container .box {
+		height: 40em;
+		width: 40em;
+	}
+
+
+	.container .box .img_box img{
+		height: 40em;
+		width:40em;
+	}
+	
+	.container .box .text{
+		font-size: 2.5em;
+	}
+
+	form input:not(.radiotype){
+		width: 80%;
+		
+	}
+	
+	form input {
+		font-size: 1em;
+	}
+	fieldset legend{
+		font-size: 2em;
+	}
+	
+	footer li {
+		font-size: 1.5em;
+	}
+	fieldset~input{
+		font-size: 2em;
+	}
+	
+	h3 {
+		font-size: 3em;
+	}
+	#conturi li, #defacut li {
+		padding-top: 10px;
+		font-size: 1.7em;
+	}
+	.coloane {
+		grid-template-columns: auto;
+	}
+	h4 {
+		font-size: 2em;
+	}
+	article ul li {
+		list-style-type: circle;
+		font-size: 1.8em;
+	}
+	
+	table {
+		width: 100%;
+		
+	}
+	
+	table th, td, caption {
+		font-size: 2em;
+	}
+	
+	tbody td {
+		padding-top: 1.5em;
+		padding-bottom: 1.5em;
+	}
+	
+}

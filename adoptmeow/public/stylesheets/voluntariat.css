@@ -1,0 +1,29 @@
+.coloane {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-column-gap: 1.1em;
+	justify-content: space-evenly;
+}
+
+.coloane article p, .coloane article ul{
+	margin-top: 30px;
+	justify-self: center;
+	
+}
+
+article p, h4, article ul li{
+	margin-top: 0;
+	font-family: "Pacifico", cursive;
+}
+
+h4 {
+	
+	background: -webkit-linear-gradient(90deg, lavender, royalblue, blue);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+div.coloane{
+	margin-top: 80px;
+}
+

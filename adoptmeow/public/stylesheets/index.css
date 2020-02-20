@@ -1,0 +1,45 @@
+.team_img{
+	float: left;
+	margin: 20px;
+	border-radius: 30%;
+	height: 250px;
+	width: 350px;
+	border: 5px solid royalblue;
+}
+.clinic{
+	float: right;
+	margin: 20px;
+	border-radius: 30%;
+	height: 350px;
+	width: 250px;
+	border: 5px solid royalblue;
+}
+
+#gif{
+	display: inline-block;
+	padding-left:20px;
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	border: 5px solid royalblue;
+}
+
+.galerie_pisici{
+	clear: left;
+}
+
+.galerie_pisici li{
+	display: inline-block;
+}
+
+.galerie_pisici li img{
+	height: 15em;
+	width: 15em;
+	padding: 5%;
+	border-radius:25%;
+}
+
+li p a{
+	text-decoration:none;
+	color: royalblue;
+}

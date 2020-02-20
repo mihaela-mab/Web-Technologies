@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Source+Sans+Pro&display=swap');
+*{
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #777;
+	
+}
+
+html, body{
+	margin: 0;
+	padding: 0;
+}
+
+.hnav{
+	text-align: center;
+	
+}
+
+.hnav ul{
+	margin:0;
+	list-style-type: none;
+	
+	
+}
+.hnav li{
+	display: inline-block;
+	position: relative;
+	margin-left: 100px;
+	padding-bottom: 70px;
+	
+}
+
+.submenu ul{
+	position: absolute;
+	display: none;
+}
+
+.submenu:hover ul {
+	display: block;
+}
+
+.hnav a{
+	text-decoration: none;
+	font-family: "Pacifico", cursive;
+	font-size: 1.8em;
+	padding: 0px;
+	color: royalblue;
+}
+.hnav a:hover:not(.not){
+	background-color: rgba(255, 255, 255, 0.3);
+	color: lavender;
+	
+	
+}
+.hnav a:not(.not):before{
+	content: '';
+	display: block;
+	height: 5px;
+	width: 0;
+	background-color: white;
+	position: absolute;
+	transition: all ease-in-out 500ms;
+}
+.hnav a:hover::before{
+	width: 100%;
+}
+
+.submenu ul {
+	margin-left: 0px;
+	padding:0px;
+	position: absolute;
+	
+}
+
+.submenu ul li{
+	float: left;
+	padding-bottom:0px;
+	margin-left:0px;
+}
+
+.not{
+	white-space: nowrap;
+	text-align: center;
+}
+.not:hover{
+	color:lavender;
+}
+
+header{
+	padding-bottom: 30px;
+	background-color: rgba(0, 0, 150, 0.3);
+	background-image: url(/images/headerbi6.jpg) ;
+	background-blend-mode: multiply;
+
+}
+h1 {
+	text-align: center;
+	font-family: "Pacifico", cursive;
+	color: lavender;
+}
+h2,h3{
+	font-size: 2em;
+	font-family: "Pacifico", cursive;
+	color: black;
+	
+}
+
+body{
+	
+	background-image: url("/images/headerbi4.jpg");
+	background-size: cover;
+	cursor: url(/images/nat738.cur), default;
+	
+}
+
+.cat_div {
+	background-color: royalblue;
+	height: 55px;
+	position: relative;
+	padding-right:0;
+	overflow: hidden;
+}
+
+.walking_cat {
+	padding-top: 8px;
+	position: absolute;
+	height: 70%;
+	animation-name: cat_gif;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+	overflow: hidden;
+	
+	
+}
+
+@keyframes cat_gif {
+	0% {left: 0%;}
+	25%{left: 25%; }
+	50%{left: 50%;}
+	75%{left: 75%;}
+	100%{left: 100%}
+}
+
+section, article {
+	font-size: 1.04em;
+	margin: 1em;
+	padding: 0 1.5em;
+}
+
+#list_footer{
+	text-align: center;
+	margin-top: 5%;
+	list-style-type: none;
+	
+}
+span.simbol {
+	font-size: 3em;
+	color: royalblue;
+}
